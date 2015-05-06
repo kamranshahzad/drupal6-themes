@@ -1,0 +1,322 @@
+
+.bg-hotdeals {
+	background-image: url(../images/bg-body-left.jpg);
+	background-repeat: no-repeat;
+}
+.bg-search-items {
+	background-image: url(../images/bg-repeat-searchitem.jpg);
+}
+
+
+
+
+.tahoma-11 {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #888888;
+	text-decoration: none;
+}
+.tahoma-11 a:link{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #6C1685;
+	text-decoration: none;
+}
+.tahoma-11 a:hover{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #6C1685;
+	text-decoration:underline;
+}
+.tahoma-11 a:visited{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #888888;
+	text-decoration: none;
+}
+.tahoma-30 {
+	color: #5b1270;
+	font-family: Tahoma;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.tahoma-11 a:active{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #888888;
+	text-decoration: none;
+}
+.bg-glaases-for-men {
+	background-image: url(../images/glasses-for-men-bg.jpg);
+}
+
+.tahoma-16- {
+	font-family: Tahoma;
+	font-size: 16px;
+	color: #5b1270;
+}
+
+.bg-categories {
+	background-image: url(../images/categories-mid-bg.jpg);
+}
+.tahoma-17 {
+	font-family: Tahoma;
+	font-size: 17px;
+	color: #6c1685;
+	text-decoration: none;
+}
+
+.bg-welcome-top {
+	background-image: url(../images/welcome-top.jpg);
+	background-repeat: no-repeat;
+}
+.arial-12-666666 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+.footer-bg-white {
+	background-image: url(../images/footer-white-bg.jpg);
+}
+
+.arial-10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #6b1c88;
+	text-decoration: none;
+}
+.arial-10 a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #6b1c88;
+	text-decoration: none;
+}
+.arial-10 a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #6b1c88;
+	text-decoration: none;
+}
+.arial-10 a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #6b1c88;
+	text-decoration: none;
+}
+.arial-10a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #6b1c88;
+}
+.bgheader-rite {
+	background-image: url(../images/bg-header-rite.jpg);
+}
+
+.tahoma-13-bold {
+}
+
+.bg-latestdetail {
+	background-image: url(../images/-bg-latestdetail.jpg);
+}
+.bg-footer {
+	background-image: url(../images/footer-bg.jpg);
+}
+
+.bg-purple {
+	background-image: url(../images/bg-purple.jpg);
+	background-repeat: no-repeat;
+}
+
+
+.tahoma-bold-white {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-top: 5px;
+}
+.tahoma-13-bold {
+	font-family: Tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	color: #888888;
+}
+
+
+
+
+.bg-purple-mid {
+	background-image: url(../images/123-bg.jpg);
+}
+.tahoma-11-none {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #602458;
+	text-decoration: none;
+}
+.tahoma-11-none a:link {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #602458;
+	text-decoration: none;
+}
+.tahoma-11-none a:visited {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #602458;
+	text-decoration: none;
+}
+.tahoma-11-none a:hover {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #602458;
+	text-decoration: none;
+}
+.tahoma-11-none a:active {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #602458;
+	text-decoration: none;
+}
+
+
+.bg-textfield {
+	background-image: url(../images/textfield-bg.jpg);
+	height: 30px;
+	width: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6c1785;
+}
+.text-purple-11-arial {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #6c1785;
+	text-decoration: none;
+}
+.text-purple-11-arial a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #6c1785;
+	text-decoration: none;
+}
+.text-purple-11-arial a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #6c1785;
+	text-decoration: none;
+}
+.text-purple-11-arial a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #6c1785;
+	text-decoration: none;
+}
+.text-purple-11-arial a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #6c1785;
+	text-decoration: none;
+}
+
+
+
+.purple-bg {
+	background-image: url(../images/strip-123.jpg);
+	background-repeat: no-repeat;
+}
+
+.tahoma-11-none-white {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tahoma-11-none-white a:link {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tahoma-11-none-white a:visited {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tahoma-11-none-white a:hover {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tahoma-11-none-white a:active {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tahoma-13-bold-copy {
+
+	font-family: Tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	color: #bd4dde;
+}
+.tahoma-17Copy {
+	font-family: Tahoma;
+	font-size: 17px;
+	color: #888888;
+	text-decoration: none;
+}
+.tahoma-18 {
+
+	color: #999999;
+	font-family: Tahoma;
+	font-size: 18px;
+	text-decoration: none;
+}
+.tahoma-12 {
+
+
+	color: #999999;
+	font-family: Tahoma;
+	font-size: 12px;
+	text-decoration: none;
+}
+.txt-handwritten {
+	font-family: "comic sans MS", verdana;
+	font-size: 18px;
+	color: #6C1685;
+	text-decoration: none;
+}
+.txt-georgia-12 {
+	font-family: georgia, arial, tahoma;
+	font-size: 12px;
+	color: #3C0C48;
+}
+.txt-georgia-14 {
+	font-family: georgia, arial, tahoma;
+	font-size: 16px;
+	color: #3C0C48;
+}
+.txt-verdana-14 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FA961C;
+}
+.txt-verdana-12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FA961C;
+}
+.txt-comic-16 {
+	font-family: "comic sans MS", verdana;
+	font-size: 16px;
+	color: #6C1685;
+}
+.txt-comic-12 {
+	font-family: "comic sans MS", verdana;
+	font-size: 12px;
+	color: #6C1685;
+}

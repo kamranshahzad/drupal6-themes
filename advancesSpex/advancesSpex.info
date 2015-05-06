@@ -1,0 +1,42 @@
+  ; $Id: advanced.info,v 1.6 2008/10/23 13:19:01 jmburnz Exp $
+  
+name = advancesSpex
+description = A multi column, tableless, fixed width layout by <a href="http://www.support4less.net/">Medialinkers</a>
+core = 6.x
+engine = phptemplate
+screenshot = screenshot.gif
+
+
+  	;Define Advanced regions on all pages
+
+regions[flashBanner] = Flash Banner 	
+regions[newTicker] =	News tickers
+regions[mainMenu] = Main menu 
+regions[tabBox] = Tab Boxes 
+regions[searchBox] = Search Boxes 
+regions[categories] = Categories
+regions[welcomeTxt] = Welcome Text 
+regions[smallBox] = Small Boxes 
+regions[latestDeals] = Latest Deals 
+regions[siteAdd] = Site Adds 
+regions[googleAdd] = Google Adds
+regions[paymentBox] = Payment Box
+regions[tellBox] = Tell a Friend Box
+regions[upperSitemap] = Upper Sitemap
+regions[lowerSitemap] = Lower Sitemap
+regions[credits] = Site Credits
+
+	; add css files inside themes
+stylesheets[all][]   = css/style-advanced.css
+stylesheets[all][]   = css/style_admin.css
+stylesheets[all][]   = css/drupalCon.css
+
+	; define pre-icons  
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon
+
+
+
+

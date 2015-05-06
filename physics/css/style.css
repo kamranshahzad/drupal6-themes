@@ -1,0 +1,487 @@
+/* CSS Document */
+
+
+
+
+body
+{
+	padding:0px;
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#444444;
+	background:url(../images/main-bg.jpg) top center repeat-x;
+}
+
+h2
+{
+color:#000000;
+font-size:23px;
+text-align:left;
+}
+
+.navting
+{
+	color:#fff;
+	text-decoration:none;
+	height:44px;
+	background:url(images/nav-bg.jpg) no-repeat; padding:0px; margin:0px;
+}
+
+	.navting ul
+	{
+		padding:0px;
+		margin:0px;
+		list-style:none;
+	}
+	
+	.navting li
+	{
+		float:left;
+		font-size:14px;
+		line-height:44px;
+	}
+		.navting .seperator
+		{
+			padding:0px; margin:0px;
+			line-height:0px;
+		}
+	
+		.navting li a
+		{
+			color:#fff;
+			text-decoration:none;
+			display:block;
+			padding-left:30px;
+			padding-right:30px;
+		}
+		
+		.navting li a:hover
+		{
+			color:#FFD800;
+		}
+			.navting .home , .navting .home a
+			{
+			}
+			.navting .home a:hover
+			{
+				background:url(images/nav-hover.jpg) 2px 0px no-repeat;
+			}
+
+			.navting .mid , .navting .mid  a
+			{
+			}
+			.navting .mid  a:hover
+			{
+				background:url(images/nav-hover.jpg) -20px 0px no-repeat;
+			}
+
+			.navting .about, .navting .about  a
+			{
+				
+			}
+			.navting .about  a:hover
+			{
+			
+				background:url(images/nav-hover.jpg) -510px 0px no-repeat;
+			}
+
+			.navting .logout , .navting .logout  a
+			{
+			}
+			.navting .logout  a:hover
+			{
+				background:url(images/nav-hover.jpg) -350px 0px no-repeat;
+			}
+
+
+<!-- For Admin -->
+
+.txtgray12
+{
+	font-size:12px;
+	color:#444444;
+	line-height:18px;
+}
+
+	.txtgray12 a
+	{
+		font-size:12px;
+		color:#0064B7;
+		line-height:18px;
+	
+	}
+	.txtgray12 a:hover
+	{
+		font-size:12px;
+		color:#999999;
+		line-height:18px;
+	
+	}
+
+.txtgray12b
+{
+	font-size:12px;
+	color:#444444;
+	line-height:18px;
+}
+
+	.txtgray12b a
+	{
+		font-size:12px;
+		color:#444444;
+		line-height:18px;
+	
+	}
+	.txtgray12b a:hover
+	{
+		font-size:12px;
+		color:#0077B0;
+		line-height:18px;
+	
+	}
+
+
+.txtblue12, .txtblue12 a
+{
+	font-size:12px;
+	color:#0077B0;
+	line-height:18px;
+}
+
+ .txtblue12 a:hover
+{
+	font-size:12px;
+	color:#004F75;
+	line-height:18px;
+}
+
+.txtwhite12, .txtwhite12 a
+{
+	font-size:12px;
+	color:#fff;
+	line-height:18px;
+	text-decoration:none;
+}
+
+ .txtwhite12 a:hover
+{
+	font-size:12px;
+	color:#FFD800;
+	line-height:18px;
+}
+
+.txtblue14, .txtblue14 a
+{
+	font-size:14px;
+	color:#0077B0;
+	line-height:18px;
+}
+
+ .txtblue14 a:hover
+{
+	font-size:14px;
+	color:#004F75;
+	line-height:18px;
+}
+
+.txtred12, .txtred12 a
+{
+	font-size:14px;
+	color:#0077b0;
+	line-height:18px;
+	font-weight:bold;
+}
+
+ .txtred12 a:hover
+{
+	font-size:12px;
+	color:#D50000;
+	line-height:18px;
+}
+
+.coma
+{
+	font-size:102px;
+	color:#DADADA;
+	margin-top:26px;
+	position:absolute;
+	font-family:"Times New Roman", Times, serif;
+
+
+}
+
+.field
+{
+
+	background:url(../images/search-bg.jpg) center no-repeat;
+}
+.field input
+{
+	width:160px;
+	color:#979797;
+	border:none;
+	background:none;
+}
+
+.padding
+{
+	padding-left:35px;
+}
+
+.border-l-r
+{
+	border-left:1px solid #DEDEDE;
+	border-right:1px solid #DEDEDE;
+}
+
+.loginField
+{
+	height:25px;
+	width:220px;
+	border:1px solid #CEE7F7;
+}
+
+.msgField
+{
+	width:220px;
+	border:1px solid #CEE7F7;
+}
+
+.listing
+{
+	font-size:12px;
+	color:#444444;
+	line-height:18px;
+}
+	.listing ul
+	{
+		padding:0px;
+		margin:0px;
+		list-style:none;
+	}
+	
+	.listing li
+	{
+		line-height:30px;
+		border-bottom:1px solid #DCEBF0;
+		background:url(../images/arrow-blue.gif) 0px 11px no-repeat;
+		font-size:12px;
+			color:#444444;
+			text-decoration:none;
+			display:block;
+			padding-left:20px;
+		
+	}
+	
+		.listing li a
+		{
+			margin-left:-20px;
+			font-size:12px;
+			color:#444444;
+			text-decoration:none;
+			display:block;
+			padding-left:20px;
+		}
+		
+			.listing li a:hover
+			{
+				padding-left:-20px;
+				font-size:12px;
+				color:#0077B0;
+				text-decoration:none;
+				background:url(../images/arrow-blue.gif) 5px 11px no-repeat;
+				background-color:#fff;
+			}
+							
+	.listing .noborder
+	{
+		border:none;
+	}
+
+.listing2
+{
+	font-size:12px;
+	color:#444444;
+	line-height:18px;
+}		
+	.listing2 ol
+	{
+		padding:0px;
+		margin:0px;
+		padding-left:22px;
+		
+	}
+	
+	.listing2 li
+	{
+		line-height:30px;
+		border-bottom:1px solid #DCEBF0;
+		font-size:12px;
+		color:#444444;
+		text-decoration:none;
+		
+
+	}
+	
+	.listing2 .noborder
+	{
+		border:none;
+	}
+
+
+h1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#000;
+}
+
+.loginButton
+{
+	border:none;
+	background:url(../images/login-btn.jpg) no-repeat;
+	width:90px;
+	height:32px;
+	cursor: pointer;
+	cursor: hand;
+
+}
+.seachButton
+{
+	border:none;
+	background:url(../images/search-btn.jpg) no-repeat;
+	width:65px;
+	height:32px;
+	cursor: pointer;
+	cursor: hand;
+}
+.order_form
+{
+	border:none;
+	background:url(../images/order_submit.jpg) no-repeat;
+	width:70px;
+	height:33px;
+	cursor: pointer;
+	cursor: hand;
+
+}
+label
+{
+	color:#01509D;
+	font-weight:100;
+	font-size:12px;
+}
+.description
+{
+
+	color:#004F75;
+
+}
+
+a
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#004F75;
+	text-decoration:none;
+}
+a:hover
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#004F75;
+	text-decoration:underline;
+}
+
+
+
+.status
+{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+	color:#579D0B;
+}
+
+legend
+{	
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+	font-weight:bold;
+}
+
+.greentext
+{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+	color:#00CC33;
+}
+
+.redtext
+{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+	color:#CC0000;
+}
+
+.txtgray12new
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#676767;
+	line-height:18px;
+}
+
+
+
+/*New CSS User-Profile*/
+.txtblue16, .txtblue16 a
+{
+	font-size:16px;
+	color:#0077B0;
+	line-height:18px;
+}
+
+/* table css */
+#gradient-style
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 0px;
+	width: 790px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#gradient-style th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	border-top: 2px solid #d3ddff;
+	border-bottom: 1px solid #fff;
+	color: #039;
+	background-color: #BBDCFD;
+	background-image: url(../images/gradhead.png);
+	background-repeat: repeat-x;
+}
+#gradient-style td
+{
+	padding: 8px;
+	border-bottom: 1px solid #fff;
+	color: #0077B0;
+	border-top: 1px solid #fff;
+	background-color: #E9F3FE;
+	background-image: url(../images/gradback.png);
+	background-repeat: repeat-x;
+}
+#gradient-style tfoot tr td
+{
+	background: #e8edff;
+	font-size: 12px;
+	color: #99c;
+}
+#gradient-style tbody tr:hover td
+{
+	background: #d0dafd url('../images/gradhover.png') repeat-x;
+	color: #339;
+}

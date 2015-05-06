@@ -1,0 +1,58 @@
+  ; $Id: Hannock.info,v 1.6 2008/10/23 13:19:01 jmburnz Exp $
+  
+name = Hennock
+description = A multi column, tableless, fixed width layout by <a href="http://www.support4less.net/">Medialinkers</a>
+core = 6.x
+engine = phptemplate
+screenshot = screenshot.gif
+
+
+  ; The regions defined in the page.tpl.php files.  The name in
+  ; brackets is the name of the variable. The text after the 
+  ; = sign is the short description you see on the block 
+  ; configuration page.
+
+regions[main_menu] = Main menu 	 	
+regions[flash_banner] = Flash Banner
+regions[left_logo] = Left Logo
+regions[right_logo] = Right Logo
+regions[left_base] = Left Base
+regions[right_base] = Right Base
+regions[contents] = Contents Are
+regions[links] = Links
+regions[gallery_base] = Gallery_base
+regions[documents] = Documents
+regions[activites] = Activites
+regions[podcast] = Podcast
+regions[navi] = Navigation
+regions[loginpanel] = Login Panel
+regions[podcategory] = podcategory
+regions[podplayer] = podplayer
+regions[slidebar] = slidebar
+regions[kids] = kids
+
+  ; This section adds CSS files to your theme. The media type is specified in
+  ; the brackets. Typical CSS media types include "all", "screen", "print", and
+  ; "handheld". See http://www.w3.org/TR/CSS21/media.html#media-types for a full
+  ; list of stylesheet media types in CSS 2.1.
+
+stylesheets[all][]   = css/style.css
+stylesheets[all][]   = css/compopent.css
+
+
+  ; The "features" control which of these check boxes display on the
+  ; admin/build/themes configuration page. This is useful for 
+  ; suppressing check boxes for elements not used by your theme.
+  
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon
+
+
+; Information added by drupal.org packaging script on 2008-10-23
+version = "6.x-3.2"
+core = "6.x"
+project = "hennock"
+datestamp = "1224768317"
+

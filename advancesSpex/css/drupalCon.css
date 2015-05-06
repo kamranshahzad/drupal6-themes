@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+
+.loginButton
+{
+	border:none;
+	background:url(../images/login-btn.jpg) no-repeat;
+	width:97px;
+	height:37px;
+}
+
+.node-add-to-cart
+{
+  	border:none;
+	background:url(../images/add-to-cart-btn.jpg) no-repeat;
+	width:86px;
+	height:34px;
+	float:left;
+}
+
+.wishlist_bt
+{
+  	border:none;
+	background:url(../images/add-to-wish-list-btn.jpg) no-repeat;
+	width:116px;
+	height:34px;
+	float:right;
+}
+
+.searchButton
+{
+  	border:none;
+	background:url(../images/btn-go.jpg) no-repeat;
+	width:47px;
+	height:18px;
+}
+
+.inner_search_field
+{
+	width:200px;
+}
+
+.newsletterButton
+{
+  	border:none;
+	background:url(../images/go_btn.jpg) no-repeat;
+	width:34px;
+	height:20px;
+}
+
+
+
+
+/*  Front Page Search Panel */
+.front_word
+{
+	width:150px;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.front_glasstype
+{
+	width:154px;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.front_glassfor
+{
+	width:154px;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.front_glasscolor
+{
+	width:154px;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.front_search_box
+{
+ width:155px;
+ padding-left:20px;
+ padding-top:20px;
+}
+
+/*   Inner  Page Search Box  */
+
+.innerstyle
+{
+	width:100px;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.innerglasstype
+{
+	width:100px;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.innerglassfor
+{
+	width:100px;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.pricefilter
+{
+	width:110px;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.innerglasscolor
+{
+	width:100px;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+
+
+/*    Tell a Friend   */
+.tellfriend_email1
+{
+	width:150px;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.tellfriend_email2
+{
+	width:150px;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.tellfriend_des
+{
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.tellfriend_button
+{
+	border:none;
+	background:url(../images/btn-submit-1.jpg) no-repeat;
+	width:70px;
+	height:20px;
+}
+
+/* Product Page*/
+.glassSpecs{
+			float:left;
+			}
+			
+				.glassSpecs ul{
+				padding:0px; margin:0px; list-style:none;
+				}
+				
+				.glassSpecs li{
+				line-height:18px;
+				font-family:Tahoma, arial, verdana;
+				font-size:11px;
+				color:#888888;
+				}
+				
+				.glassSpecs li a{
+				color:#888888;
+				text-decoration:underline;
+				}
+				
+				.glassSpecs li .heading{
+				line-height:18px;
+				font-family:Tahoma, arial, verdana;
+				font-size:16px;
+				color:#7F1A9A;
+				font-weight:bold;
+				}
+								.glassSpecs li .heading a{
+				line-height:18px;
+				font-family:Tahoma, arial, verdana;
+				font-size:16px;
+				color:#7F1A9A;
+				font-weight:bold;
+				}
+				
+				.glassSpecs .specs2{
+			width:auto;
+			float:left;
+			font-family:Tahoma, arial, verdana;
+			font-size:11px;
+			color:#888888;
+			}
+			
+				.glassSpecs .specs2 ul{
+				padding:0px; margin:0px; list-style:none;
+				}
+				
+				.glassSpecs .specs2 li{
+				float:left;
+				line-height:29px;
+				font-family:Tahoma, arial, verdana;
+				font-size:18px;
+				color:#888888;
+				padding-left:15px;
+				padding-right:15px;				
+				}
+				
+				.glassSpecs .specs2 li .price{
+				font-family:Tahoma, arial, verdana;
+				font-size:22px;
+				color:#7F1A9A;
+			
+				}
+				
+				
+/* */
+
+.list-add-to-cart
+{
+	border:none;
+	background:url(../images/btn-buynow.jpg) no-repeat;
+	width:96px;
+	height:37px;
+	float:right;
+	cursor: pointer;
+	cursor: hand;
+}
+
+/* Welcome Text Class*/
+.welcomePageTxt
+{
+  color:#6A1685;
+}
+
+
+
+/* Cart Buttons */
+.updateCartButton
+{
+	border:none;
+	background:url(../images/update-cart-bt.jpg) no-repeat;
+	width:110px;
+	height:24px;
+	cursor: pointer;
+	cursor: hand;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.checkoutButton
+{
+	border:none;
+	background:url(../images/checkout-btn.jpg) no-repeat;
+	width:90px;
+	height:24px;
+	cursor: pointer;
+	cursor: hand;
+		color:#FFFFFF;
+	font-weight:bold;
+}

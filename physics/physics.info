@@ -1,0 +1,44 @@
+  ; $Id: Hannock.info,v 1.6 2008/10/23 13:19:01 jmburnz Exp $
+  
+name = physics
+description = A Table Based Layout Developed by <a href="http://www.support4less.net/">Medialinkers</a>
+core = 6.x
+engine = phptemplate
+screenshot = screenshot.gif
+
+
+  ; The regions defined in the page.tpl.php files.  The name in
+  ; brackets is the name of the variable. The text after the 
+  ; = sign is the short description you see on the block 
+  ; configuration page.
+
+regions[main_menu] = Main menu 	 	
+regions[top_banner] = Header Banner
+regions[left_txt] = Left Text
+regions[right_txt] = Right Text
+regions[search_bar] = Search Bars
+regions[middle_txt] = Middle Text
+regions[site_footer] = Site Footer
+regions[site_footer2] = Admin Footer
+regions[list_box] = List Box
+regions[top_login] = Top Login
+regions[admin_box] = Admin Box
+
+
+
+
+  ; This section adds CSS files to your theme. The media type is specified in
+  ; the brackets. Typical CSS media types include "all", "screen", "print", and
+  ; "handheld". See http://www.w3.org/TR/CSS21/media.html#media-types for a full
+  ; list of stylesheet media types in CSS 2.1.
+
+stylesheets[all][]   = css/style.css
+
+
+
+; Information added by drupal.org packaging script on 2008-10-23
+version = "6.x-3.2"
+core = "6.x"
+project = "physics"
+datestamp = "1224768317"
+
