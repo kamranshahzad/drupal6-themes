@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*  Rating API  */
+.fivestar-static-form-item {margin-top:10px;}
+
+
+/* Node Links */
+.links { }
+.links a { color:#336600; text-decoration:none;}
+.links a:hover { color:#336600; text-decoration:underline;}
+
+#edit-zip-wrapper { display:inline;}

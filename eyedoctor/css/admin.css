@@ -1,0 +1,66 @@
+#adminWrapper { width:973px; margin: 5px auto 10px; border:1px solid #e0e0e0; border-top:0px; padding:5px 0; background: url('http://demo.kashyapinfotech.com/eyedoctors/ui/images/gradient-1.gif') repeat-x; }
+		
+		/* Login page */
+		.adminloginbox{ width:352px; height:250px; padding:10px 15px 15px; text-align:left; }
+		.form-item .form-text{ width:312px; height:25px; line-height:25px; margin:10px 0px; color:#666666; padding-left:5px;  padding-top:5px; *padding-top:0px; }
+		.form-submit { height:30px;  margin:10px auto; background:#41970d; color:#FFFFFF; border:none; padding:3px 10px 3px 10px; cursor:pointer; font-weight:bold;}			
+		
+		/* Login index page */
+		.adminCat{ width:212px; height:180px;  float:left; padding:10px 15px 15px; text-align:center; }
+			.adminCatTitle { text-align:center; font-size:14px; font-weight:bold; text-transform:uppercase; }
+			.adminCatImage {  }
+			.adminCatDescription { margin-top:15px; text-align:left; }
+				.adminCatDescription li { position: relative; padding:3px 0 3px 16px; background: url('http://demo.kashyapinfotech.com/eyedoctors/images/Bullet_Check.gif') no-repeat left center; }
+			.adminCatLink { display:block; margin-top:5px; text-align:left; text-decoration:none; }
+			.adminCatLink:hover { text-decoration:underline; }
+		
+		
+		.adminstretchbox{ width:auto; float:left; padding:10px; margin:10px; border:3px solid #CCCCCC; }
+		.adminstretchbox hr{ background:#CCCCCC; color:#CCCCCC; height:1px; border:none;}
+		
+				
+		/* Login form page */
+		.adminCatfield{ width:955px; float:left; padding:20px 15px 15px; text-align:left; }
+		.adminCatfield h2 {font-size:18px; color:#397218;  margin-bottom:20px;}
+		.adminCatfieldTitle{ font-size:18px; color:#397218;  margin-bottom:20px;}
+		
+		/*
+		.adminCatfield input{ float:left; width:202px; height:25px; *line-height:25px; color:#666666; padding-left:5px; padding-top:5px; *padding-top:0px;  }
+		.adminCatfield textarea{ float:left; width:202px; height:100px; *line-height:25px; color:#666666; padding-left:5px; padding-top:5px; *padding-top:0px;  }
+		.adminCatfield .btn{ width:102px; height:30px;  margin:10px auto; background:#41970d; color:#FFFFFF; border:none;  }
+		*/
+		
+		
+		.breadcrumb { color:#336600;}
+		.breadcrumb a { color:#336600; text-decoration:none;}
+		.breadcrumb a:hover { color:#336600; text-decoration:underline;}
+		
+		.sticky-table { line-height:30px;}
+		tableHeader-processed a{ color:#336600;}
+		thead.tableHeader-processed {font-weight:bold; }
+		thead.tableHeader-processed a{ color:#336600; font-weight:bold;}
+		
+		
+		/* _home page layout  */
+		.ad-content { width:881px; margin-left:auto; margin-right:auto; margin-top:10px;}
+		.ad-content .ad-leftbox { width:440px;  float:left;}
+		.ad-content .ad-rightbox{ width:440px;  float:right;}
+		
+		.option-box {width:423px; margin-top:10px;}
+		.option-box .top { width:423px; height:9px; background:url(../images/top-box-strip.jpg) bottom no-repeat;}
+		.option-box .middle {border-left:#CCCCCC solid 1px;border-right:#CCCCCC solid 1px; padding:2px 10px 2px 10px; }
+		.option-box .middle .heading { font-size:17px; font-weight:bold; }
+		.option-box .bottom{ width:423px; height:9px; background:url(../images/bottom-box-strip.jpg) top no-repeat;}
+		
+		
+		/* inside the option box*/
+		.option-link {width:378px; border:#999999 solid 1px; padding:10px; background:#E3E3E3; margin-top:10px;}
+		.option-link .option-icons { width:32px; height:32px; float:left;}
+		.option-link .option-text { width:308px; float:right;}
+
+		/* _links styles */
+		.option-text a { font-weight:bold; text-decoration:none; color:#336600;}
+		.option-text a:hover { font-weight:bold; text-decoration:underline; color:#336600;}
+		.clear { clear:both; }
+		
+		

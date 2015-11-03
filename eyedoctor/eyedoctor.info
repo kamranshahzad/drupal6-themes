@@ -1,0 +1,38 @@
+  ; $Id: advanced.info,v 1.6 2008/10/23 13:19:01 jmburnz Exp $
+  
+name = eyedoctor
+description = A multi column, tableless
+core = 6.x
+engine = phptemplate
+screenshot = screenshot.gif
+
+
+  	;Define Advanced regions on all pages
+
+
+regions[mainMenu] = Main menu 
+regions[textAds] = Text Ads
+regions[mainSearch] = Main Seach
+regions[topSearch] = Top Header Search
+regions[textResize] = Text Resizer
+regions[bigAds] = Big Multi Type Ads
+regions[footer] = Footer
+regions[box1] = Box 1 (popular Doctors)
+regions[box2] = Box 2 (Lisk or Not)
+regions[box3] = Box 3 (Glass Type)
+regions[box4] = Box 4 (DC Eye)
+regions[suggestedBlock] = Sugguested Block
+regions[nestedSearch] = Advanced Search
+regions[commentForm] = Comments Form Container
+regions[commentAlert] = Comments Form Alerts
+regions[commentWork] = Comments Manager Options
+
+	; define pre-icons  
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon
+
+
+
+

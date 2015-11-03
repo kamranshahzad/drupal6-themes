@@ -1,0 +1,374 @@
+/*******************************
+ Font-sizes for dummies
+ Percent		Rendered
+ *******************************
+ 77%			10px
+ 85%			11px
+ 93%			12px
+ 100%			13px
+ 108%			14px
+ 116%			15px
+ 123.1%			16px
+ 131%			17px
+ 138.5%			18px
+ 146.5%			19px
+ 153.9%			20px
+ 161.6%			21px
+ 167%			22px
+ 174%			23px
+ 182%			24px
+ 189%			25px
+ 197%			26px
+ *******************************/
+
+/*** Reset ***/
+html{overflow-y:scroll;color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+strong { font-weight: bold; }
+
+/*** Static Classes (DO NOT REDEFINE) ***/
+.CONTAINER { clear: both; }
+	.CONTAINER:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+	* html .CONTAINER { height: 1%; } /* IE6 \*/
+	html > body .CONTAINER { height: auto; min-height: 1%; } /* IE7 */
+	.CONTAINER { margin-left: auto; margin-right: auto; }
+.CLEAR { clear: both; }
+img, td,li{ behavior: url(iepngfix.htc) }
+
+/*** Layout ***/
+.SectionWrapper {  }
+.SectionContainer { width: 1000px; margin: auto; }
+#SiteHeaderWrapper {  }
+#SiteContentWrapper {  }
+#SiteFooterWrapper {  }
+
+
+/*** Modules (DO NOT STACK) ***/
+.ModuleTitle { display: block; text-align: left; font: normal 138.5% Arial; color: #A63112; padding: 3px; }
+
+.Module001 { background: transparent url("/images/shape-1.png") no-repeat center 28px; }
+	.Module001 .ModuleTitle { color: #360; margin-top: 16px; line-height: 28px; text-align: center; }
+	.Module001 .photo { float: left; height: 270px; width: 350px; margin-left: 7px; text-align: center; background: transparent url("/images/shape-2.png") no-repeat; }
+		.Module001 .photo img { width: 295px; height: 195px; }
+	.Module001 .content { float: left; width: 260px; padding-top: 27px; }
+		.Module001 .content .title { display: block; font: bold 123.1% Arial; padding-top: 15px; }
+		.Module001 .content .title { color: #5D4D37; } /* hack to inherit a */
+		.Module001 .content .introduction { margin: 0; padding: 10px 0; }
+		.Module001 .content .hyperlink { font-weight: bold; }
+
+.Module002 { margin-top: 5px; }
+	.Module002 .divider { height: 16px; margin-top: 10px; border-top: 1px solid #e2e1d9; background: url("http://demo.kashyapinfotech.com/eyedoctors/images/shape-3.png") no-repeat bottom center; }
+	.Module002 .column { width: 33.2%; float: left; text-align: center; border-top: 1px solid #e2e1d9; }
+	.Module002 .column.center { border: solid 1px #e2e1d9; border-bottom: none; }
+		.Module002 .column a { font-weight: bold; }
+		.Module002 .column p { padding: 7px 0; font-size: 93%; }
+		.Module002 .column img { width: 198px; height: 116px; margin: 3px 0; }
+		.Module002 .column .title { margin: 3px 5px; line-height: 26px; height: 26px; background: #f2efe3; text-align: center; color: #A63112; font-size: 123.1%; font-weight: normal; }
+		.Module002 .column .content { margin: 3px 5px; text-align: left; }
+
+.Module003 { margin-bottom: 10px; }
+	.Module003 .ModuleTitle { color: #347408; }
+	.Module003 .Module003Corner { position: relative; z-index: 1; width: 5px; height: 5px; background: transparent url("/images/shape-5.gif") no-repeat; _font-size: 0; }
+		.Module003 .Module003Corner.topLeft { float: left; background-position: top left; }
+		.Module003 .Module003Corner.topRight { float: right; background-position: top right; }
+		.Module003 .Module003Corner.bottomLeft { float: left; background-position: bottom left; margin-top: -5px; }
+		.Module003 .Module003Corner.bottomRight { float: right; background-position: bottom right; margin-top: -5px; }
+	.Module003 .Module003Head { background: #f5f2e9; line-height: 30px; }
+		.Module003 .Module003HeadCorner { width: 7px; height: 7px; background: transparent url("/images/shape-4.gif") no-repeat; _font-size: 0; }
+		.Module003 .Module003HeadCorner.topLeft { float: left; background-position: top left; }
+		.Module003 .Module003HeadCorner.topRight { float: right; background-position: top right; }
+			.Module003 .Module003Head .content { padding: 0 8px; }
+	.Module003 .Module003Foot { background: #f5f2e9; line-height: 30px; }
+		.Module003 .Module003FootCorner { width: 7px; height: 7px; background: transparent url("/images/shape-4.gif") no-repeat; }
+		.Module003 .Module003FootCorner { _font-size: 0; } /* IE6 */
+		.Module003 .Module003FootCorner.bottomLeft { float: left; background-position: bottom left; margin-top: -7px; }
+		.Module003 .Module003FootCorner.bottomRight { float: right; background-position: bottom right; margin-top: -7px; }
+	.Module003 .Module003Body { padding: 5px; background: #f5f2e9; }
+	.Module003 .Module003Container { background: #fff; border: solid 2px #e2e1d9; padding: 3px; }
+
+.Module004 { margin-bottom: 10px; }
+	.Module004 .Module004Corner { position: relative; z-index: 1; width: 5px; height: 5px; background: transparent url("/images/shape-5.gif") no-repeat; _font-size: 0; }
+		.Module004 .Module004Corner.topLeft { float: left; background-position: top left; }
+		.Module004 .Module004Corner.topRight { float: right; background-position: top right; }
+		.Module004 .Module004Corner.bottomLeft { float: left; background-position: bottom left; margin-top: -5px; }
+		.Module004 .Module004Corner.bottomRight { float: right; background-position: bottom right; margin-top: -5px; }
+	.Module004 .Module004Head { background: #f5f2e9; line-height: 30px; }
+		.Module004 .Module004HeadCorner { width: 7px; height: 7px; background: transparent url("/images/shape-4.gif") no-repeat; _font-size: 0; }
+		.Module004 .Module004HeadCorner.topLeft { float: left; background-position: top left; }
+		.Module004 .Module004HeadCorner.topRight { float: right; background-position: top right; }
+		.Module004 .Module004Head .content { padding: 0 8px; }
+	.Module004 .Module004Body { padding: 5px; background: #fff; }
+	.Module004 .Module004Container { background: #fff; border: solid 2px #e2e1d9; padding: 3px; }
+
+.Module005 { margin-bottom: 10px; }
+	.Module005 .Module005Head { background: #f5f2e9; line-height: 30px; }
+		.Module005 .Module005HeadCorner { width: 7px; height: 7px; background: transparent url("/images/shape-4.gif") no-repeat; _font-size: 0; }
+		.Module005 .Module005HeadCorner.topLeft { float: left; background-position: top left; }
+		.Module005 .Module005HeadCorner.topRight { float: right; background-position: top right; }
+			.Module005 .Module005Head .content { padding: 0 8px; }
+	.Module005 .Module005Foot { background: #f5f2e9; line-height: 30px; }
+		.Module005 .Module005FootCorner { width: 7px; height: 7px; background: transparent url("/images/shape-4.gif") no-repeat; _font-size: 0; }
+		.Module005 .Module005FootCorner.bottomLeft { float: left; background-position: bottom left; margin-top: -7px; }
+		.Module005 .Module005FootCorner.bottomRight { float: right; background-position: bottom right; margin-top: -7px; }
+	.Module005 .Module005Body { padding: 5px; background: #f5f2e9; }
+
+.Module006 {  }
+	.Module006 .Module006Body { border: 1px solid #E2E1D9; border-width: 0 1px; background: #f2efe3; padding: 0 10px; }
+	.Module006 .Module006Corner { height: 6px; font-size: 2px; background-image: url("/images/shape-6.png"); _background-image: url("/images/shape-6.gif"); _font-size: 0; }
+		.Module006 .Module006Corner.topLeft { margin-right: 6px; }
+		.Module006 .Module006Corner.topRight { margin-top: -6px; margin-left: 6px; background-position: right 0; }
+		.Module006 .Module006Corner.bottomLeft { margin-right: 6px;  background-position: 0 -6px;}
+		.Module006 .Module006Corner.bottomRight { margin-top: -6px; margin-left: 6px; background-position: right -6px; }
+.Module006Alternate1 {  }
+	.Module006Alternate1 .Module006Body { background-color: #eee; border-color: #c6c6c6; }
+	.Module006Alternate1 .Module006Corner { background-image: url("/images/shape-7.png"); _background-image: url("/images/shape-7.gif"); }
+.Module006Alternate2 {  }
+	.Module006Alternate2 .Module006Body { background-color: #fff; border-color: #d6d6d6; }
+	.Module006Alternate2 .Module006Corner { background-image: url("http://demo.kashyapinfotech.com/eyedoctors/ui/images/sprite-shape-8.png"); _background-image: url("http://demo.kashyapinfotech.com/eyedoctors/ui/images/sprite-shape-8.gif"); }
+
+.Module007 { margin-bottom: 10px; }
+	.Module007 .Module007Corner { position: relative; z-index: 1; width: 5px; height: 5px; background: transparent url("/images/shape-5.gif") no-repeat; _font-size: 0; }
+		.Module007 .Module007Corner.topLeft { float: left; background-position: top left; }
+		.Module007 .Module007Corner.topRight { float: right; background-position: top right; }
+		.Module007 .Module007Corner.bottomLeft { float: left; background-position: bottom left; margin-top: -5px; }
+		.Module007 .Module007Corner.bottomRight { float: right; background-position: bottom right; margin-top: -5px; }
+	.Module007 .Module007Head { line-height: 30px; }
+			.Module007 .Module007Head .content { padding: 0 8px; }
+	.Module007 .Module007Foot { line-height: 30px; }
+		.Module007 .Module007FootCorner { width: 7px; height: 7px; background: transparent url("/images/shape-4.gif") no-repeat; _font-size: 0; }
+		.Module007 .Module007FootCorner.bottomLeft { float: left; background-position: bottom left; margin-top: -7px; }
+		.Module007 .Module007FootCorner.bottomRight { float: right; background-position: bottom right; margin-top: -7px; }
+	.Module007 .Module007Body { padding: 5px; }
+	.Module007 .Module007Container { background: #fff; border: solid 2px #e2e1d9; padding: 3px; }
+
+.Module008 { margin-bottom: 10px; }
+	.Module008 .Module008Corner { position: relative; z-index: 1; width: 5px; height: 5px; background: transparent url("/images/shape-5.gif") no-repeat; _font-size: 0; }
+		.Module008 .Module008Corner.topLeft { float: left; background-position: top left; }
+		.Module008 .Module008Corner.topRight { float: right; background-position: top right; }
+		.Module008 .Module008Corner.bottomLeft { float: left; background-position: bottom left; margin-top: -5px; }
+		.Module008 .Module008Corner.bottomRight { float: right; background-position: bottom right; margin-top: -5px; }
+	.Module008 .Module008Head { background: #f5f2e9; height: 7px; }
+		.Module008 .Module008HeadCorner { width: 7px; height: 7px; background: transparent url("/images/shape-4.gif") no-repeat; _font-size: 0; } 
+		.Module008 .Module008HeadCorner.topLeft { float: left; background-position: top left; }
+		.Module008 .Module008HeadCorner.topRight { float: right; background-position: top right; }
+	.Module008 .Module008Foot { background: #f5f2e9; height: 7px; }
+		.Module008 .Module008FootCorner { width: 7px; height: 7px; background: transparent url("/images/shape-4.gif") no-repeat; _font-size: 0; }
+		.Module008 .Module008FootCorner.bottomLeft { float: left; background-position: bottom left; }
+		.Module008 .Module008FootCorner.bottomRight { float: right; background-position: bottom right; }
+	.Module008 .Module008Container { background: #fff; border: solid 2px #e2e1d9; padding: 3px; }
+	
+	
+.Module009 { margin-bottom: 10px; border: solid 2px #e2e1d9; -webkit-border-radius: 4px; -moz-border-radius: 4px; }
+	.Module009 .Module009Head { background-color: #f5f2e9; line-height: 30px; padding: 0 8px; -webkit-border-radius: 4px; -moz-border-radius: 4px; }
+	.Module009 .Module009Body { padding: 5px; background-color: #fff; }
+	
+.Module010 { margin-bottom: 10px; padding: 4px 8px 8px; background-color: #F2EFE3; -webkit-border-radius: 6px; -moz-border-radius: 6px; }
+	.Module010 .Module010Head { padding: 0 0 4px; color: #A63112; }
+	.Module010 .Module010Body { padding: 8px; background-color: #fff; -webkit-border-radius: 4px; -moz-border-radius: 4px; }
+	
+.Module011 { margin-bottom: 10px; padding: 3px; border: solid 2px #e2e1d9; background-color: #fff;  -webkit-border-radius: 4px; -moz-border-radius: 4px; }
+	.Module011 .Module011Head { padding: 0 4px; background-color: #F5F2E9; color: #A63112; -webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius: 4px 4px 0 0; }
+	.Module011 .Module011Body { padding: 5px; }
+
+.Module012 { margin-bottom: 10px; padding: 3px; border: solid 2px #e2e1d9; background-color: #fff;  -webkit-border-radius: 4px; -moz-border-radius: 4px; }
+	.Module012 .Module012Head { padding: 0 4px; background-color: #F5F2E9; color: #A63112; -webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 4px; -moz-border-radius: 4px 4px 0 0; }
+	.Module012 .Module012Body { padding: 5px; background-color: #F5F2E9; -webkit-border-bottom-left-radius: 4px; -webkit-border-bottom-right-radius: 4px; -moz-border-radius: 0 0 4px 4px; }
+	
+.Module013 { margin-bottom: 10px; border: solid 2px #e2e1d9; background-color: #fff;  -webkit-border-radius: 4px; -moz-border-radius: 4px; }
+	.Module013 .Module013Head { padding: 0 5px; background-color: #F5F2E9; color: #A63112; }
+	.Module013 .Module013Body { padding: 0 5px 5px;  }
+
+/*** Global Classes ***/
+.GlobalTitle { font: normal 174% Arial; color: #000; }
+.GlobalSubtitle { font: normal 138.5% Arial; color: #000; }
+.Button { cursor: pointer; }
+
+#SiteLogo { display: block; position: absolute; width: 108px; height: 113px; cursor: pointer; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/ui/images/logo-eyedoctors.png', sizingMethod='scale'); }
+	#SiteLogo img { }
+	.logopad{ padding: 26px 0pt 0pt 90px; }
+
+.NavigationModule { font-size: 93%; font-weight: bold; color: #5D4D37; }
+	.NavigationModule ul { display: none; }
+	.NavigationModule .spacer { height: 10px; font-size: 0; }
+	.NavigationModule .tab { float: left; margin: 13px 0 0; border-left: solid 1px #E2E1D9; }
+	.NavigationModule .tab:first-child { border-left-color: #fff; }
+	.NavigationModule .title { padding: 0 15px 0 0; line-height: 18px; margin: 0 10px; text-decoration: none; background: transparent url("/images/arrows-1.gif") no-repeat 100% 4px; cursor: pointer; }
+	.NavigationModule .first { border-left: none; }
+		.NavigationModule .first .title { background-image: none; padding-right: 0; }
+
+.DropDownMenu { position: absolute; z-index:3; display: none; font-size: 93%; font-weight: bold; color: #5D4D37; }
+	.DropDownMenu .head { position: relative; z-index: 2; cursor: pointer; }
+		.DropDownMenu .head .title { display: block; padding: 0 15px 3px 0; white-space: nowrap; line-height: 18px; color: #336633; text-decoration: none; border-bottom: solid 1px #E2E1D9; background: #F2EFE3 url("/images/arrows-1.gif") no-repeat 100% -47px; cursor: pointer; }
+	.DropDownMenu .body { position: relative; top: -1px; }
+		.DropDownMenu .body ul { display: inline; }
+		.DropDownMenu .body li { float: left; background: url("/images/Bullet1.gif") no-repeat scroll 0 center; padding: 4px 14px; width: 131px; }
+	.DropDownMenu .body.left .topLeft { background-color: #F2EFE3; background-image: none; border-left: solid 1px #E2E1D9; }
+	.DropDownMenu .body.right .topRight { background-color: #F2EFE3; background-position: 99% 0; border-right: solid 1px #E2E1D9; }
+
+.PaginationModule { margin: 5px 0; padding: 10px; }
+	.PaginationModule .status { float: left; padding:  0 8px 4px; }
+	.PaginationModule .paging { float: right; padding-right: 10px; width: 450px; }
+		.PaginationModule .paging ul { list-style: none; }
+			.PaginationModule .paging ul li { display: inline; } /* IE7 */
+			.PaginationModule .paging ul li a { float: right; width: 25px; text-align: center; line-height: 16px; }
+			.PaginationModule .paging ul li a:hover {  text-decoration: underline; }
+		.PaginationModule .paging .selected { color: #000; font-weight: bold; }
+		.PaginationModule .paging .selected:hover { text-decoration: none; cursor: default; }
+		.PaginationModule .paging .button { float: right; }
+		.PaginationModule .paging .previousPage { padding-left: 12px; margin-right: 12px; background: url("/images/Bullet_Arrow_L.gif") no-repeat 0 center; }
+		.PaginationModule .paging .nextPage { padding-right: 12px; margin-left: 12px; background: url("/images/Bullet_Arrow_R.gif") no-repeat right center; }
+		.PaginationModule .paging .previousPageSet { padding-left: 12px; margin-right: 12px; background: url("/images/Bullet_Arrow_L.gif") no-repeat 0 center; }
+		.PaginationModule .paging .nextPageSet { padding-right: 12px; margin-left: 12px; background: url("/images/Bullet_Arrow_R.gif") no-repeat right center; }
+		.PaginationModule .paging .unavailable { cursor: default; color: #999; }
+
+.RatingModule { cursor: default; width: 60px; height: 12px; }
+	.RatingModule .icon1,
+	.RatingModule .icon2,
+	.RatingModule .icon3,
+	.RatingModule .icon4 { float: left; height: 12px; width: 12px; cursor: pointer; background: url("/ui/images/sprite-stars-1.png") no-repeat; }
+	.RatingModule .icon1 { background-position: 0 0; }
+	.RatingModule .icon2 { background-position: 0 -12px; }
+	.RatingModule .icon3 { background-position: 0 -24px; }
+	.RatingModule .icon4 { background-position: 0 -36px; }
+
+.aIcon {background: url("/images/icons-1.png") no-repeat;}
+	.aIconSki {background-position: 0 0;}
+	.aIconFishing {background-position: 0 -258px;}
+	.aIconOffHighway {background-position: 0 -516px;}
+	.aIconSnowshoeing {background-position: 0 -774px;}
+	.aIconBirding {background-position: 0 -43px;}
+	.aIconFlyFishing {background-position: 0 -301px;}
+	.aIconRailTrails {background-position: 0 -559px;}
+	.aIconSurf {background-position: 0 -817px;}
+	.aIconCamp {background-position: 0 -86px;}
+	.aIconHiking {background-position: 0 -344px;}
+	.aIconRoadBike {background-position: 0 -602px;}
+	.aIconTrailRun {background-position: 0 -860px;}
+	.aIconCanoe {background-position: 0 -129px;}
+	.aIconHotSprings {background-position: 0 -387px;}
+	.aIconScenic {background-position: 0 -645px;}
+	.aIconWalking {background-position: 0 -903px;}
+	.aIconClimb {background-position: 0 -172px;}
+	.aIconMtnBike {background-position: 0 -430px;}
+	.aIconSeaKayak {background-position: 0 -688px;}
+	.aIconWaterfalls {background-position: 0 -946px;}
+	.aIconXCountry {background-position: 0 -215px;}
+	.aIconNature {background-position: 0 -473px;}
+	.aIconSkiResorts {background-position: 0 -731px;}
+	.aIconWhitewater {background-position: 0 -989px;}
+
+.AdUnit728x90 { height: 90px; }
+	.AdUnit728x90 iframe { margin: 0 auto; }
+
+.AdUnit300x250 { min-height: 40px; }
+	.AdUnit300x250 iframe { margin: 0 auto; }
+	
+.AdUnit { padding: 10px; }
+
+.FindTrail { text-align: center; width: 390px; float: left; }
+
+.PopularSections { width: 220px; float: right; }
+	.PopularSections .List { margin: 7px; }
+	
+.PopularCategories {  }
+	.PopularCategories ul { list-style: none; }
+	.PopularCategories li { float: left; font-size: 93%; height: 42px; margin: 5px 2px 5px 0; padding-left: 50px; width: 95px; }
+	.PopularCategories a { text-align: left !important; display: block; }
+	
+.OutdoorActivities {  }
+    .OutdoorActivities li { float: left; width: 150px; font-size: 85%; margin: 5px 2px 5px 0; height: 42px; padding-left: 45px; }
+	    .OutdoorActivities li a { display: block; padding-top: 6px; font-weight: bold;}
+
+.Carousel {  }
+	.CarouselButton { display: block; width: 30px; height: 33px; cursor: pointer; background: url('http://demo.kashyapinfotech.com/eyedoctors/ui/images/sprite-buttons-1.gif') no-repeat; }
+	.CarouselButtonPrevious { float: left; background-position: -40px -45px; }
+	.CarouselButtonNext { float: right; background-position: -40px 0; }
+	.CarouselPagination { height: 23px; }
+		.CarouselPagination .CarouselPage { display: block; width: 12px; height: 23px; float: left; cursor: pointer; background: url('http://demo.kashyapinfotech.com/eyedoctors/ui/images/sprite-buttons-3.png') no-repeat -13px 1px; }
+		.CarouselPagination .CarouselPage.selected { background-position: 1px 1px; }
+	.CarouselContent { float: left; overflow: hidden; }
+	
+.PublishingPartners {  }
+	.PublishingPartners .ModuleTitle { padding: 10px; }
+	.PublishingPartners ul { float: left; padding: 0 0 15px 10px; }
+		.PublishingPartners li { width: 205px; }
+		.PublishingPartners img { float: right; margin: 5px 12px 0px 10px; }
+
+.TopTrails {  }
+	.TopTrails dl { font-size: 11px; }
+	.TopTrails dl dt { margin: 2px 0;}
+		.TopTrails dl dt a { font-weight: bold; }
+		.TopTrails dl dt span { color: #347408; }
+		.TopTrails dl dd {margin-bottom:10px; }
+	.TopTrails .viewall { display:block; padding-left: 10px; margin-top: 15px; background: url('/images/Bullet_Arrow.gif') no-repeat 0 5px;}
+
+.PromotionalContentBar { width: 960px; margin: 0 auto; color: #347408; text-align: center; padding: 5px 0; } 
+    .PromotionalContentBar .Module006Body { font-size: 100%; color: #347408; }
+
+.EcoProgramContentBar {  }
+	.EcoProgramContentBar .Module006Body { font-size: 93%; color: #424242; text-align: left; }
+	.EcoProgramContentBar .message { margin-left: 5px; }
+	.EcoProgramContentBar .divider { border-right: solid 1px #d6d6d6; line-height: 12px; margin: 0 10px 0 5px; }
+	.EcoProgramContentBar .decor { background: transparent url("/ui/images/sprite-icons-1.png") no-repeat; }
+	.EcoProgramContentBar .decor { _background-image: url("/ui/images/sprite-icons-1.gif"); } /* IE6 */
+	.EcoProgramContentBar .image1 { position: absolute; height: 45px; width: 50px; margin: -25px 0 0 -10px; }
+	.EcoProgramContentBar .image2 { position: absolute; height: 25px; width: 95px; margin: 0 0 0 40px; background-position: -100px -18px; }
+	.EcoProgramContentBar .image3 { float: right; position: relative; height: 45px; width: 40px; margin-top: -25px; background-position: -55px bottom; }
+	
+.RelatedAdLinksModule { padding: 15px 0; }
+	.RelatedAdLinksModule a { display: block; }
+	.RelatedAdLinksModule .title { color:#999999; font-size:85%; text-transform: uppercase; }
+	
+.SponsorLogo { display: none; }
+
+#OutdoorGearCarousel {  }
+	#OutdoorGearCarousel ul { width: 1012px; }
+	#OutdoorGearCarousel li { float: left; width: 152px; padding-top: 15px; }
+		#OutdoorGearCarousel li a { display:block; text-decoration: none; }
+	#OutdoorGearCarousel .CarouselButton { margin-top: 35px; }
+	#OutdoorGearCarouselContent { width: 152px; min-height: 130px; position:relative; overflow: hidden; }
+	
+#TrailInformation { width: 310px; float: left; }
+	#TrailInformation .Module012Head,
+	#TrailInformation .Module012Body { height: 4px; padding: 0; }
+	#TrailInformationUpsell { margin: 25px 0 0 65px; position: absolute; }
+	#TrailInformationTitle { margin-bottom: 5px; }
+	#TrailInformationContainer { font-size:12px; width: 100%; }
+	.TrailInformationRow { background-color: #f2efe3; vertical-align:top; }
+	.TrailInformationLabel { padding: 5px 8px; white-space: nowrap; text-align: right; color: #A63112; }
+	.TrailInformationData { padding: 5px 8px; background-color: #fff; }
+	
+#WeatherReport { margin-bottom: 10px; }
+	#WeatherReportTitle { margin-bottom: 5px; }
+	.WeatherReportForecast { border-bottom: 2px solid #E6E6E6; margin: 0 2px 6px; padding: 2px 0 6px; }
+	.WeatherReportForecastImage { float: left; width: 32px; height: 32px; background-position: center center; background-repeat: no-repeat; }
+	.WeatherReportForecastSummary { padding-left: 38px; margin-top: -3px; font-size: 12px; }
+		.WeatherReportForecastSummary strong { color: #347408; font-size: 13px; }
+	#WeatherReportSourceLink { text-align: center; margin: 8px 0 4px; font-size: 11px; }
+		#WeatherReportSourceLink small { display: block; color: #347408; }
+		
+#RelatedTrailInformation {  }
+	.RelatedTrailInformationSection { margin-bottom: 4px; }
+	#RelatedTrailInformation .List { padding: 0 10px; }
+	#RelatedTrailInformation .ModuleTitle { color: #347408; padding: 6px 4px 0; }
+		#RelatedTrailInformation .ModuleTitle .Note { color: #9e9a80; position:relative; top:-2px; }
+	#RelatedTrailInformationTravelInfo { margin-bottom: 0; }	
+	
+#SiteFeatures { width:973px; margin: 5px auto 10px; border-bottom:0px solid #d9d9d9; padding:5px 0; background: url('http://demo.kashyapinfotech.com/eyedoctors/ui/images/gradient-1.gif') repeat-x; }
+		.SiteFeature { width:212px; height:180px; border-left:1px solid #e0e0e0; float:left; padding:10px 15px 15px; text-align:center; }
+			.SiteFeatureTitle { text-align:center; font-size:14px; font-weight:bold; text-transform:uppercase; }
+			.SiteFeatureImage {  }
+			.SiteFeatureDescription { margin-top:15px; text-align:left; }
+				.SiteFeatureDescription li { position: relative; padding:3px 0 3px 16px; background: url('http://demo.kashyapinfotech.com/eyedoctors/images/Bullet_Check.gif') no-repeat left center; }
+			.SiteFeatureLink { display:block; margin-top:5px; text-align:left; text-decoration:none; }
+			.SiteFeatureLink:hover { text-decoration:underline; }
+			
+	
+	#SampleGuides { border: 0;}
+	
+		
+	#ActivityCarousel { margin-bottom: 20px; }
+		#ActivityCarouselTitle { color:#A63112; margin-bottom: 10px; font: normal 138.5% Arial; }
+		#ActivityCarousel .CarouselButton { margin-top: 5px; }
+		#ActivityCarousel .CarouselContent { width: 580px;  position:relative; overflow: hidden; }
+			#ActivityCarousel .CarouselContent ul { width: 1740px; }
+			#ActivityCarousel .CarouselContent li { float: left; text-align:center; width:58px; }
